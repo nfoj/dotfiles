@@ -1,0 +1,37 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[✿](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+[aws]
+symbol = "  "
+
+[directory]
+read_only = "󰌾 "
+
+[docker_context]
+symbol = "  "
+
+[fossil_branch]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[hostname]
+ssh_symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[package]
+symbol = "󰏗 "
+
+[rust]
+symbol = " "
+
