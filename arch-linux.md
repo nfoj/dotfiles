@@ -79,3 +79,16 @@ zellij > config.kdl
 - Remove
 
 sudo pacman -R swaybar 
+
+
+- Git
+
+1. git config --global user.name "name"
+2. git config --global user.email "@email"
+3. ssh-keygen -t ed25519 -C "your_email@example.com"
+4. enter ... enter
+5. cd > cd .ssh/ > acess id_ed25519.pub
+6. cat id_ed25519.pub
+7. copy > github > settings > SSH and GPG keys > new SSH > paste > add
+8. github > create repository > copy > SSH git@github.com: ... > paste git clone git@github.com: ... > yes 
+
