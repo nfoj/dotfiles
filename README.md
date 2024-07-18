@@ -7,13 +7,16 @@
 
 ![Desktop](https://github.com/nfoj/arch-linux/blob/main/prints/desktop-03.png)
 
+<br>
+
 ### 💾 Programs
 - Sway;
 - Alacritty;
 - Zellij;
 - Starship;
-- Neovim;
+- Neovim.
 
+<br>
 
 ### 📚 Description
 Repository focused on storing processes for installing and configuring tools for development in the Arch Linux environment.
