@@ -24,7 +24,8 @@ nmcli d wifi connect <name> password <pass>
 - Programs
 
 sudo pacman -Syu
-sudo pacman -S neovim git alacritty firefox bluez bluez-utils ufw starship docker postgresql zellij
+sudo pacman -S helix git alacritty firefox bluez bluez-utils ufw starship docker postgresql zellij
+sudo pacman -R pavucontrol vim foot waybar nano grim
 
 sudo pacman -S nerd-fonts 
 <!--(JetBrains (42) + Nerd Font Icons (53))-->
@@ -74,7 +75,7 @@ eval "$(starship init bash)"
 alacritty nvim starhip.toml sway zellij
 
 alacritty > alacrrtty.toml catppuccin-mocha.toml
-nvim > init.lua lazy-lock.json
+#nvim > init.lua lazy-lock.json
 sway > background.png config
 zellij > config.kdl
 
