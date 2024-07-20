@@ -25,7 +25,7 @@ nmcli d wifi connect <name> password <pass>
 
 sudo pacman -Syu
 sudo pacman -S helix git alacritty firefox bluez bluez-utils ufw starship docker postgresql zellij
-sudo pacman -R pavucontrol vim foot waybar nano grim htop
+sudo pacman -R vim foot waybar nano grim htop
 
 sudo pacman -S nerd-fonts 
 <!--(JetBrains (42) + Nerd Font Icons (53))-->
