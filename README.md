@@ -9,7 +9,7 @@
 
 <br>
 
-### 💾 Programs
+### 💾 Programas
 - Sway;
 - Alacritty;
 - Zellij;
@@ -18,5 +18,5 @@
 
 <br>
 
-### 📚 Description
-Repository focused on storing processes for installing and configuring tools for development in the Arch Linux environment.
+### 📚 Descrição
+Repositório focado no armazenamento de processos para instalação e configuração de ferramentas de desenvolvimento no ambiente Arch Linux.
