@@ -24,11 +24,14 @@ nmcli d wifi connect <name> password <pass>
 - Programs
 
 sudo pacman -Syu
-sudo pacman -S nvim git alacritty firefox bluez bluez-utils ufw starship docker postgresql zellij
+sudo pacman -S nvim git alacritty firefox bluez bluez-utils ufw starship docker
 sudo pacman -R vim foot waybar nano grim htop
 
 sudo pacman -S nerd-fonts 
 <!--(JetBrains (42) + Nerd Font Icons (53))-->
+
+
+Obs: Helix, Postgress, Zellij, Zed, ...
 
 
 - Rust
