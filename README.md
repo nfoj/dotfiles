@@ -7,8 +7,6 @@
 
 ![Desktop](https://github.com/nfoj/arch-linux/blob/main/prints/desktop-03.png)
 
-<br>
-
 ### 💾 Programas
 - Alacritty;
 - Docker;
