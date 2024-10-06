@@ -62,20 +62,20 @@
 
 # User Interface
 # --------------
-"ui.background" = { fg = "text", bg = "base" }
+"ui.background" = { fg = "text" }
 
 "ui.linenr" = { fg = "surface1" }
 "ui.linenr.selected" = { fg = "lavender" }
 
-"ui.statusline" = { fg = "subtext1", bg = "mantle" }
-"ui.statusline.inactive" = { fg = "surface2", bg = "mantle" }
-"ui.statusline.normal" = { fg = "base", bg = "lavender", modifiers = ["bold"] }
-"ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"]  }
-"ui.statusline.select" = { fg = "base", bg = "flamingo", modifiers = ["bold"]  }
+"ui.statusline" = { fg = "subtext1" }
+"ui.statusline.inactive" = { fg = "surface2" }
+"ui.statusline.normal" = { fg = "base", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "base", modifiers = ["bold"]  }
+"ui.statusline.select" = { fg = "base", modifiers = ["bold"]  }
 
-"ui.popup" = { fg = "text", bg = "surface0" }
+"ui.popup" = { fg = "text" }
 "ui.window" = { fg = "crust" }
-"ui.help" = { fg = "overlay2", bg = "surface0" }
+"ui.help" = { fg = "overlay2" }
 
 "ui.bufferline" = { fg = "subtext0", bg = "mantle" }
 "ui.bufferline.active" = { fg = "mauve", bg = "base", underline = { color = "mauve", style = "line" } }
