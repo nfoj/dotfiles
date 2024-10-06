@@ -10,13 +10,12 @@
 <br>
 
 ### 💾 Programas
-- Sway;
 - Alacritty;
-- Zellij;
+- Docker;
+- Firefox;
+- Git;
+- Helix;
+- Neovim;
 - Starship;
-- Neovim.
-
-<br>
-
-### 📚 Descrição
-Repositório focado no armazenamento de processos para instalação e configuração de ferramentas de desenvolvimento no ambiente Arch Linux.
+- Sway;
+- Zellij.
