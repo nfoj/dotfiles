@@ -95,6 +95,20 @@ zellij > config.kdl
 8. github > create repository > copy > SSH git@github.com: ... > paste git clone git@github.com: ... > yes 
 
 
+- Yay
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+
+- Zen Browser
+
+# For generic version
+yay -S zen-browser-bin
+
+# For optimized version
+yay -S zen-browser-avx2-bin
+
+
 - Nvim
 
 cd .config
