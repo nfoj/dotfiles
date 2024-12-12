@@ -3,13 +3,13 @@
 theme = "catppuccin_mocha"
 
 [editor]
-line-number = "relative"
+#line-number = "relative"
 mouse = false
 auto-completion=true
 auto-save=true
 auto-format=true
 text-width=80
-gutters = [ "diagnostics", "line-numbers", "spacer"]
+gutters = [ "diagnostics", "spacer"] # line-numbers
 soft-wrap.enable = true
 soft-wrap.max-indent-retain=80
 
