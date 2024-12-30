@@ -102,12 +102,12 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 
 - Zen Browser
 
-# For generic version
+- For generic version
 yay -S zen-browser-bin
 
-# For optimized version
-yay -S zen-browser-avx2-bin
-
+- Rust
+sudo pacman -Syu rustup rustc
+rustup component add rls rust-analysis rust-src
 
 - Nvim
 
