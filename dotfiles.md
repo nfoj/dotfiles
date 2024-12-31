@@ -1,7 +1,7 @@
 <!-- Arch -->
 
 
-- Install
+# Install
 
 1. Connect wifi
     a. iwctl
@@ -11,9 +11,10 @@
 
 2.  archinstall
 3.  Preference Config  ...
+:wq
+:
 
-
-- Connect
+# Connect
 
 nmcli d
 nmcli r wifi on
