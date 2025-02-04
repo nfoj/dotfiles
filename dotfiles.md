@@ -11,15 +11,14 @@
 
 2.  archinstall
 3.  Preference Config  ...
-:wq
-:
+
 
 # Connect
 
 nmcli d
 nmcli r wifi on
 nmcli d wifi list
-nmcli d wifi connect <name> password <pass>
+nmcli d wifi connect <name> password <password>
 
 
 - Programs
@@ -37,7 +36,9 @@ Obs: Helix, Postgress, Zellij, Zed, ...
 
 - Rust
 
-https://www.rust-lang.org/tools/install
+sudo pacman -Syu rustup
+rustup update
+rustup default stable
 
 
 - UFW - Firewall
@@ -48,8 +49,8 @@ sudo ufw enable
 - Sway
 
 mkdir .config/sway 
-cp /etc/sway/config .config/sway 
-nvim .config/sway/config
+cp /etc/sway/config .config/sway
+helix .config/sway/config
 
 
 - Bluetooth
@@ -70,18 +71,8 @@ connect <code name - reference to device>
 
 - Starship
 
-nvim ~/.bashrc
+helix ~/.bashrc
 eval "$(starship init bash)"
-
-
-- .config
-
-alacritty nvim starhip.toml sway zellij
-
-alacritty > alacrrtty.toml catppuccin-mocha.toml
-#nvim > init.lua lazy-lock.json
-sway > background.png config
-zellij > config.kdl
 
 
 - Git
@@ -106,9 +97,6 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 - For generic version
 yay -S zen-browser-bin
 
-- Rust
-sudo pacman -Syu rustup rustc
-rustup component add rls rust-analysis rust-src
 
 - Nvim
 
