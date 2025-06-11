@@ -9,10 +9,7 @@
 ### 💾 Programas
 - Alacritty;
 - Docker;
-- Firefox;
 - Git;
 - Helix;
-- Neovim;
 - Starship;
-- Sway;
-- Zellij.
+- Sway.
