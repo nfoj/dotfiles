@@ -1,0 +1,12 @@
+# Person Account
+
+Host github.com-foj-dev
+		HostName github.com
+		User git
+		IdentityFile ~/.ssh/foj_ed25519
+
+Host github.com-nfoj
+		HostName github.com
+		User git
+		IdentityFile ~/.ssh/nfoj_ed25519
+
