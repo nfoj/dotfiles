@@ -92,6 +92,12 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 yay -S zen-browser-bin
 
 
+- Pavucontrol
+
+sudo pacman -S gnome-themes-extra
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+
 - Nvim
 
 cd .config
