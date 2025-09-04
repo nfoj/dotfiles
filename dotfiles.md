@@ -1,7 +1,5 @@
 <!-- Arch -->
-
-
-# Install
+## Install
 
 1. Connect wifi
     a. iwctl
@@ -13,7 +11,7 @@
 3.  Preference Config  ...
 
 
-# Connect
+## Connect
 
 nmcli d
 nmcli r wifi on
@@ -21,33 +19,33 @@ nmcli d wifi list
 nmcli d wifi connect <name> password <password>
 
 
-- Programs
+## Programs
 
 sudo pacman -Syu
-sudo pacman -S git alacritty bluez bluez-utils docker helix starship ufw
+sudo pacman -S git alacritty docker starship ufw
 sudo pacman -Rsn vim foot waybar nano grim htop
 
-sudo pacman -S nerd-fonts 
+sudo pacman -S nerd-fonts
 <!--(JetBrains (42) + Nerd Font Icons (53))-->
 
-- Rust
+## Rust
 
-pacman -S rust-analyzer
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
-- UFW - Firewall
+## UFW - Firewall
 
 sudo ufw enable
 
 
-- Sway
+## Sway
 
-mkdir .config/sway 
+mkdir .config/sway
 cp /etc/sway/config .config/sway
-helix .config/sway/config
+zededitor .config/sway/config
 
 
-- Bluetooth
+## Bluetooth
 
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
@@ -55,7 +53,7 @@ bluetoothctl
 
 power on
 agent on
-default-agent 
+default-agent
 scan on
 devices
 trust <code name - reference to device>
@@ -63,13 +61,13 @@ pair <code name - reference to device>
 connect <code name - reference to device>
 
 
-- Starship
+## Starship
 
 helix ~/.bashrc
 eval "$(starship init bash)"
 
 
-- Git
+## Git
 
 1. git config --global user.name "name"
 2. git config --global user.email "@email"
@@ -78,27 +76,26 @@ eval "$(starship init bash)"
 5. cd > cd .ssh/ > acess id_ed25519.pub
 6. cat id_ed25519.pub
 7. copy > github > settings > SSH and GPG keys > new SSH > paste > add
-8. github > create repository > copy > SSH git@github.com: ... > paste git clone git@github.com: ... > yes 
+8. github > create repository > copy > SSH git@github.com: ... > paste git clone git@github.com: ... > yes
 
 
-- Yay
+## Yay
 
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
-
-- Zen Browser
-
-- For generic version
 yay -S zen-browser-bin
+yay -S aseprite
+yay -S google-chrome
 
 
-- Pavucontrol
+## Pavucontrol
 
 sudo pacman -S gnome-themes-extra
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
 
-- Nvim
+
+## Nvim
 
 cd .config
 mkdir nvim

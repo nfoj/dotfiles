@@ -10,6 +10,10 @@
 - Alacritty;
 - Docker;
 - Git;
-- Helix;
+- Google Chrome;
+- Rust
 - Starship;
-- Sway.
+- Sway;
+- UFW;
+- Zed;
+- Yay.
